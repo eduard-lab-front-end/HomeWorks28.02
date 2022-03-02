@@ -1,0 +1,40 @@
+
+
+.container { 
+    width: 710px;
+    height: 365px;
+    background-color: #274427;
+    position: relative;
+}
+h1 {
+    color: #fff;
+    font-size: 53px;
+    margin: 0;
+    position: absolute;
+    top: 90px;
+    left: 70px;
+    white-space: pre-line;
+    text-transform: uppercase;
+    z-index: 10;
+    font-family: sans-serif;
+}
+.img {
+  position: absolute;
+  top: 50px;
+  left:130px;
+  
+
+}
+.img img { 
+    width: 560px;
+    height: 360px;
+}
+.img .paragraph {
+    position: absolute;
+    bottom: 30px;
+    right: 45px;
+    color:#fff;
+    width: 200px;
+    font-size: 13px;
+    text-align:end;
+}

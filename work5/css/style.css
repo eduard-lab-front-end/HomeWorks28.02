@@ -1,0 +1,40 @@
+img {
+   height: 600px;
+   width: 800px;
+   filter: blur(5px);
+   position: relative;
+}
+.container {
+    position: relative;
+}
+.wrapper {
+    background-color: #fff;
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    padding:20px;
+    border-radius: 15% 0 15% 15%;
+}
+.wrapper h1 {
+    font-size: 3em;
+    font-weight: 800;
+    margin: 0;
+
+}
+.wrapper p a{
+    font-size: 18px;
+    color: rgb(139, 139, 139);
+    font-weight: 500;
+}
+
+.wrapper button {
+    width: 145px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(10, 194, 56, 0.712);
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.808);
+}

@@ -1,0 +1,37 @@
+.container {
+    max-width: 730px;
+    background-color: #ddd;
+    padding: 10px 45px 30px;
+}
+.header { 
+    width: 350px;
+    font-size: 19px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+.wrapper {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding-top: 10px;
+}
+.wrapper-inner { 
+    width: 300px;
+    background-color: #fff;
+    border-left: 11px solid rgb(179, 190, 23);
+    padding: 10px 20px 35px;
+}
+.wrapper-inner h2 { 
+    color:rgb(179, 190, 23);
+    font-size: 18px;
+}
+.wrapper-inner p {
+   
+    font-size: 12px;
+ 
+}
+.wrapper-inner i {
+    display: block;
+    font-size: 20px;
+    padding-top: 10px;
+}
